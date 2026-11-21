@@ -1,0 +1,19 @@
+{
+  "source": "data/지형데이터/gachon_univ_height.tif",
+  "method": "10x10 칸 평균(원본 0 = 자료 없음 → 제외, 전부 없으면 NaN)",
+  "value": "원본 높이 값(m, 기준면 미확인 — 공개 표고보다 평균 약 18 m 높음). 장면 높이 = 값 - origin_height_m",
+  "width": 834,
+  "height": 813,
+  "cell_m": 1.0,
+  "dtype": "float32",
+  "order": "row-major, 첫 행 = 북쪽 끝",
+  "left_utm": 334333.6900016785,
+  "top_utm": 4147132.6300170897,
+  "left_east_m": -417.19998817442684,
+  "top_north_m": 406.74002914410084,
+  "origin_height_m": 96.22499465942383,
+  "min": 64.04228973388672,
+  "max": 128.3999786376953,
+  "nan_cells": 362936,
+  "generated_at": "2026-11-21T03:02:44+09:00"
+}

@@ -1,0 +1,36 @@
+{
+  "scenarios": [
+    {
+      "file": "S0.json",
+      "scenario": "S0",
+      "name": "현황",
+      "run": 18,
+      "seed": 42,
+      "generated_at": "2026-11-21T20:10:23+09:00"
+    },
+    {
+      "file": "S1.json",
+      "scenario": "S1",
+      "name": "증차 1대",
+      "run": 17,
+      "seed": 42,
+      "generated_at": "2026-11-21T20:10:24+09:00"
+    },
+    {
+      "file": "S2.json",
+      "scenario": "S2",
+      "name": "증차 2대",
+      "run": 15,
+      "seed": 42,
+      "generated_at": "2026-11-21T20:10:24+09:00"
+    },
+    {
+      "file": "S3.json",
+      "scenario": "S3",
+      "name": "신규 노선",
+      "run": 27,
+      "seed": 42,
+      "generated_at": "2026-11-21T22:01:24+09:00"
+    }
+  ]
+}

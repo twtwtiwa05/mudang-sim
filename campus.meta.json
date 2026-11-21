@@ -1,0 +1,32 @@
+{
+  "source": "data/지형데이터/gachon_univ_mesh_grid_0.4_local_fix.ply",
+  "method": "open3d simplify_quadric_decimation",
+  "open3d": "0.20.0",
+  "trimesh": "5.2.1",
+  "target_faces": 800000,
+  "surveyed_mask": {
+    "basis": "[추정] 반사강도 색의 거칠기",
+    "rough_grey": 0.01,
+    "rough_share": 0.3,
+    "cell_m": 2.0,
+    "window_cells": 5,
+    "min_area_m2": 400,
+    "area_m2": 104676
+  },
+  "source_vertices": 3485616,
+  "source_faces": 6960603,
+  "vertices": 403395,
+  "faces": 800000,
+  "axes": "glTF X=east, Y=up, Z=-north (m, 원점 = shift_info.json origin)",
+  "min_enu_m": [
+    -417.15,
+    -406.65,
+    -32.205
+  ],
+  "max_enu_m": [
+    416.85,
+    399.15,
+    32.205
+  ],
+  "generated_at": "2026-11-21T02:47:08+09:00"
+}

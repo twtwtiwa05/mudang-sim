@@ -1,0 +1,38 @@
+{
+  "source": "AWS Open Data Terrain Tiles (Mapzen Terrarium, 원자료 SRTM 약 30 m)",
+  "source_url": "https://registry.opendata.aws/terrain-tiles/",
+  "tiles": [
+    "14/13977/6350",
+    "14/13978/6350",
+    "14/13977/6351",
+    "14/13978/6351"
+  ],
+  "zoom": 14,
+  "bbox_wsen": [
+    127.1215,
+    37.4445,
+    127.1385,
+    37.4585
+  ],
+  "method": "쌍선형 보간 후 교내 실측 격자와의 높이 차를 더함(화면 표현용 보정)",
+  "campus_minus_dem": {
+    "median_m": 17.9,
+    "p05_m": 7.46,
+    "p95_m": 31.56,
+    "overlap_cells": 12604
+  },
+  "width": 306,
+  "height": 304,
+  "cell_m": 5.0,
+  "dtype": "float32",
+  "order": "row-major, 첫 행 = 북쪽 끝",
+  "left_utm": 333828.5944331216,
+  "top_utm": 4147364.1394233615,
+  "left_east_m": -922.2955567312893,
+  "top_north_m": 638.2494354159571,
+  "origin_height_m": 96.22499465942383,
+  "min": 41.68904495239258,
+  "max": 208.78619384765625,
+  "nan_cells": 0,
+  "generated_at": "2026-11-21T03:01:49+09:00"
+}
